@@ -22,12 +22,5 @@
     "repository"  : "AOSiP-Devices/vendor_oneplus",
     "target_path" : "vendor/oneplus",
     "branch"      : "ten"
-  },
-  {
-    "remote"      : "github",
-    "repository"  : "AOSiP-Devices/device_twrp",
-    "target_path" : "device/twrp/enchilada",
-    "branch"      : "enchilada",
-    "clone-depth" : "1"
   }
 ]
