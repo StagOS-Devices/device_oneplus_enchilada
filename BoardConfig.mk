@@ -22,8 +22,11 @@ DEVICE_PATH := device/oneplus/enchilada
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
-# Prebuilt TWRP include
-#-include device/twrp/enchilada/twrp.mk
+# Prebuilt TWRP BLACK recovery
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := device/twrp/black/enchilada/ramdisk-recovery.cpio
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += device/oneplus/common
 
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
