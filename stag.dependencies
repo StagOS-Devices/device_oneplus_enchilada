@@ -8,9 +8,10 @@
     "target_path": "device/oneplus/common"
   },
   {
-    "repository"  : "vendor_oneplus_camera",
-    "target_path" : "vendor/oneplus/camera",
-    "branch"      : "sx"
+    "repository"  : "Evolution-X-Devices/vendor_addons_oneplus_camera",
+    "target_path" : "vendor/addons/oneplus/camera",
+    "branch"      : "sdm845",
+    "clone-depth" : "1"
   },
   {
     "repository"  : "kernel_oneplus_sdm845",
@@ -25,8 +26,8 @@
   },
   {
     "remote"      : "github",
-    "repository"  : "Evolution-X-Devices/device_twrp_black",
-    "target_path" : "device/twrp/black/enchilada",
+    "repository"  : "Evolution-X-Devices/recovery_twrp_evox",
+    "target_path" : "recovery/twrp/evox/device/oneplus/enchilada",
     "branch"      : "enchilada",
     "clone-depth" : "1"
   }
